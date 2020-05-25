@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/yukeke1475329239/fed-e-task-01-02.git",
   "author": "keke.yu <keke.yu@17zuoye.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
