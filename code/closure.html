@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  let { log } = console
+  // log(Math.pow(2,2))
+  // var a = 1
+  // function closure(power){
+  //    return function(number){
+  //     return Math.pow(number,power)
+  //    }
+  // }
+  // let pow1 = closure(2)
+  // let pow2 = closure(3)
+
+  // log(pow1(2))
+  // log(pow1(3))
+  
+  function makeSalary(base){
+    return function (num){
+     return base+num
+    }
+  }
+
+  let salaryLevel1 = makeSalary(1200)
+  let salaryLevel2 = makeSalary(1500)
+
+  log(salaryLevel1(200))
+  log(salaryLevel2(300))
+
+
+  </script>
+</body>
+</html>
