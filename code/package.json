@@ -1,13 +1,8 @@
 {
   "name": "code",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "main": "index.js",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.15",
     "nodemon": "^2.0.4"
