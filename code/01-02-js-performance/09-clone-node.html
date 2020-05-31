@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="box1">old</p>
+
+  <script>
+  
+    for (var i = 3; i; i --){
+      var op = document.createElement("p");
+      op.innerHTML = i
+      document.body.appendChild(op)
+    }
+   
+   const oldP = document.getElementById("box1")
+   for (var i = 4; i; i --){
+      var newP = oldP.cloneNode(i);
+      newP.innerHTML = i
+      document.body.appendChild(newP)
+    }
+
+ 
+   </script>
+</body>
+</html>
