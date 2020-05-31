@@ -30,12 +30,10 @@
 ## 代码题1 ##
 
 ### 第一题 ###
-    ```
+
+   ```
       let isLastInStock = fp.flowRight(fp.prop("in_stock"),fp.last)
-    ```
-    
-
-
+   ```
 ### 第二题 ###
 
   ```
